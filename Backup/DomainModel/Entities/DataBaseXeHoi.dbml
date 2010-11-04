@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="XeHoi" Class="DataBaseXeHoiDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=BITPRO;Initial Catalog=XeHoi;Integrated Security=True" SettingsObjectName="DomainModel.Properties.Settings" SettingsPropertyName="XeHoiConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Admin" Member="Admins">
+    <Type Name="Admin">
+      <Column Name="ID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Type" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Model" Member="Models">
+    <Type Name="Model">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ManufactureID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Year" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="Model_Product" Member="Products" ThisKey="ID" OtherKey="ModelID" Type="Product" />
+      <Association Name="Manufacture_Model" Member="Manufacture" ThisKey="ManufactureID" OtherKey="ID" Type="Manufacture" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Manufacture" Member="Manufactures">
+    <Type Name="Manufacture">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Manufacture_Model" Member="Models" ThisKey="ID" OtherKey="ManufactureID" Type="Model" />
+      <Association Name="Manufacture_Product" Member="Products" ThisKey="ID" OtherKey="ManufactureID" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ThongSoKichThuoc" Member="ThongSoKichThuocs">
+    <Type Name="ThongSoKichThuoc">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CxDxRID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CRCS" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KSGX" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ThongSoKichThuoc_Product" Member="Products" ThisKey="ID" OtherKey="TSKT_ID" Type="Product" />
+      <Association Name="CxDxR_ThongSoKichThuoc" Member="CxDxR" ThisKey="CxDxRID" OtherKey="ID" Type="CxDxR" IsForeignKey="true" />
+      <Association Name="CRCoSo_ThongSoKichThuoc" Member="CRCoSo" ThisKey="CRCS" OtherKey="ID" Type="CRCoSo" IsForeignKey="true" />
+      <Association Name="KSGX_ThongSoKichThuoc" Member="KSGX1" ThisKey="KSGX" OtherKey="ID" Type="KSGX" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CxDxR" Member="CxDxRs">
+    <Type Name="CxDxR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="CxDxR_ThongSoKichThuoc" Member="ThongSoKichThuocs" ThisKey="ID" OtherKey="CxDxRID" Type="ThongSoKichThuoc" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CRCoSo" Member="CRCoSos">
+    <Type Name="CRCoSo">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="CRCoSo_ThongSoKichThuoc" Member="ThongSoKichThuocs" ThisKey="ID" OtherKey="CRCS" Type="ThongSoKichThuoc" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KSGX" Member="KSGXes">
+    <Type Name="KSGX">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="KSGX_ThongSoKichThuoc" Member="ThongSoKichThuocs" ThisKey="ID" OtherKey="KSGX" Type="ThongSoKichThuoc" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ThongSoHopSo" Member="ThongSoHopSos">
+    <Type Name="ThongSoHopSo">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="LHS_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ThongSoHopSo_Product" Member="Products" ThisKey="ID" OtherKey="TSHS_ID" Type="Product" />
+      <Association Name="LHSo_ThongSoHopSo" Member="LHSo" ThisKey="LHS_ID" OtherKey="ID" Type="LHSo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LHSo" Member="LHSos">
+    <Type Name="LHSo">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="LHSo_ThongSoHopSo" Member="ThongSoHopSos" ThisKey="ID" OtherKey="LHS_ID" Type="ThongSoHopSo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Product" Member="Products">
+    <Type Name="Product">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="ModelID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ManufactureID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="MadeIn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ImageData" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ImageMimeType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TSKT_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TSHS_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ImagePath" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="Manufacture_Product" Member="Manufacture" ThisKey="ManufactureID" OtherKey="ID" Type="Manufacture" IsForeignKey="true" />
+      <Association Name="Model_Product" Member="Model" ThisKey="ModelID" OtherKey="ID" Type="Model" IsForeignKey="true" />
+      <Association Name="ThongSoHopSo_Product" Member="ThongSoHopSo" ThisKey="TSHS_ID" OtherKey="ID" Type="ThongSoHopSo" IsForeignKey="true" />
+      <Association Name="ThongSoKichThuoc_Product" Member="ThongSoKichThuoc" ThisKey="TSKT_ID" OtherKey="ID" Type="ThongSoKichThuoc" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

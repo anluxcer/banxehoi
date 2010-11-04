@@ -1,0 +1,76 @@
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.dll
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.pdb
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\ResolveAssemblyReference.cache
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.dll
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.pdb
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.dll
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.pdb
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.dll
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.xml
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.MicroKernel.xml
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Windsor.xml
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Core.xml
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.dll
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.pdb
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.dll
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.dll
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.pdb
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.xml
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.MicroKernel.xml
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Windsor.xml
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Core.xml
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.dll
+C:\Documents and Settings\Administrator\Desktop\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.pdb
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.dll
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.pdb
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Core.dll
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.MicroKernel.dll
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Windsor.dll
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.dll
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Microsoft.Web.Mvc.dll
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.dll
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.pdb
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.xml
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.MicroKernel.xml
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Windsor.xml
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Core.xml
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\ResolveAssemblyReference.cache
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.dll
+D:\Bai tap C#\MVC\WebsiteBannXeHoi v15 v14 + Captcha\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.pdb
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.dll
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.pdb
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.dll
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.dll
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.pdb
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.xml
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.MicroKernel.xml
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Windsor.xml
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Core.xml
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\ResolveAssemblyReference.cache
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.dll
+D:\Bai tap C#\MVC\Do an WebSiteBanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.pdb
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.dll
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.pdb
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.dll
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.dll
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.pdb
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.xml
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.MicroKernel.xml
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Windsor.xml
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Core.xml
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\ResolveAssemblyReference.cache
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.dll
+C:\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.pdb
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\ResolveAssemblyReference.cache
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.dll
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\obj\Debug\WebsiteBanXeHoi.pdb
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.dll
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\WebsiteBanXeHoi.pdb
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.dll
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\DomainModel.pdb
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.dll
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Core.xml
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.MicroKernel.xml
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.Windsor.xml
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\WebsiteBanXeHoi\bin\Castle.DynamicProxy2.xml

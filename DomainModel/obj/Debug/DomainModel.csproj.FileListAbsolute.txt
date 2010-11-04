@@ -1,0 +1,12 @@
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\bin\Debug\DomainModel.dll.config
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\bin\Debug\DomainModel.dll
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\bin\Debug\DomainModel.pdb
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\obj\Debug\ResolveAssemblyReference.cache
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\obj\Debug\DomainModel.dll
+D:\Bai tap C#\MVC\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\obj\Debug\DomainModel.pdb
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\bin\Debug\DomainModel.dll.config
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\bin\Debug\DomainModel.dll
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\bin\Debug\DomainModel.pdb
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\obj\Debug\ResolveAssemblyReference.cache
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\obj\Debug\DomainModel.dll
+D:\BanXeHoi\WebSiteBanXeHoi\WebSiteBanXeHoi\DomainModel\obj\Debug\DomainModel.pdb

@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+
+        <script src="<%= Url.Content("~/Scripts/MicrosoftAjax.js") %>"type="text/javascript"></script>
+        <script src="<%= Url.Content("~/Scripts/MicrosoftMvcAjax.js") %>"type="text/javascript"></script>        
+        
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    
+    <!--RSS ở đây -->
+    <link rel="alternate" type="application/rss+xml" title="Sản phẩm mới" href="http://localhost:2232/Products/RSSFeed" />
+    
+    <!--Thêm CSS ở đây -->
+    <link rel="Stylesheet" href="~/Content/styles.css" />
+
+</head>
+<body>
+    <div id="header">
+       <table>
+        <tr>
+            <th>
+                 <!--<div class="title">Thế giới xe hơi</div> --> 
+                  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" 
+                width="200%" height="100" title="Thế giới xe hơi" >
+                <param name="movie" value="Content/saosang.swf" />
+                <param name="quality" value="high" />
+                <param name="wmode" value="transparent" />
+                <embed src="Content/saosang.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+                width="200%" height="100"/>
+                </object>
+            </th>
+            
+            <th>
+                 <!--<div class="title">Thế giới xe hơi</div> --> 
+                  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" 
+                width="300%" height="100" title="Thế giới xe hơi" >
+                <param name="movie" value="Content/thegioixehoi.swf" />
+                <param name="quality" value="high" />
+                <param name="wmode" value="transparent" />
+                <embed src="Content/thegioixehoi.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+                width="300%" height="100"/>
+                </object>  
+            </th>
+                
+             <th>
+                 <!--<div class="title">Thế giới xe hơi</div> --> 
+                  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" 
+                width="200%" height="100" title="Thế giới xe hơi" >
+                <param name="movie" value="Content/saosang.swf" />
+                <param name="quality" value="high" />
+                <param name="wmode" value="transparent" />
+                <embed src="Content/saosang.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+                width="200%" height="100"/>
+                </object>
+            </th>
+            
+            <th>
+                 <!--<div class="title">Thế giới xe hơi</div> --> 
+                  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" 
+                width="200%" height="100" title="Thế giới xe hơi" >
+                <param name="movie" value="Content/saosang.swf" />
+                <param name="quality" value="high" />
+                <param name="wmode" value="transparent" />
+                <embed src="Content/saosang.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+                width="200%" height="100"/>
+                </object>
+            </th>
+        </tr>
+       </table>
+    </div>
+    
+    <div id="categories">
+        
+        <% Html.RenderAction("Menu", "Nav" , new { highlightCategory = ViewData["CurrentCategory"] }); %>
+        
+        <% if(!(ViewContext.Controller is WebsiteBanXeHoi.Controllers.CartController))Html.RenderAction("Summary", "Cart"); %>
+        
+         <%=Html.ActionLink("RSS", "RSSFeed" , "RSS")%>
+         <%=Html.ActionLink("Tải bảng giá", "DownloadBangGia" , "Download")%>
+         <%= Html.ActionLink("Đăng nhập quyền admin" ,"LogOn" , "Account") %> <!--Thực ra object router là ten cua controller dieu khien--> 
+         
+    </div>
+      
+      
+      
+    <div id="content">
+    
+         <div style="background-color:GrayText ; text-align:right">    
+                   <% using(Ajax.BeginForm("GetTime", new AjaxOptions { UpdateTargetId = "myResults" })) { %>
+                        <select name="zone">
+                            <option value="vn" >Việt Nam</option>
+                            <option value="hk">Hồng Kông</option>
+                            <option value="london">Anh Quốc</option>
+                            <option value="us">Hoa Kì</option>
+                        </select>
+                        <input type="submit" value="Xem" />
+                        
+                    <% } %>
+                    
+                     <div id = "myResults">
+                        Bây giờ là: <%= DateTime.Now.ToString("h:MM:ss tt") %> (Việt Nam)
+                    </div>
+        </div>
+        
+
+              
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+</body>
+</html>

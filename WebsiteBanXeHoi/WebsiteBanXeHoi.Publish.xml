@@ -1,0 +1,57 @@
+<publishData>
+  <publishTarget publishUrl="C:\WebSiteBanXeHoi\">
+    <file relUrl="bin/Castle.MicroKernel.xml" publishTime="09/20/2007 18:23:42" />
+    <file relUrl="Content/78.swf" publishTime="10/31/2008 13:53:54" />
+    <file relUrl="Views/Shared/ProductSummary.ascx" publishTime="12/13/2009 13:45:36" />
+    <file relUrl="bin/Castle.Core.dll" publishTime="09/20/2007 18:23:00" />
+    <file relUrl="Views/Nav/Menu.ascx" publishTime="12/10/2009 02:45:20" />
+    <file relUrl="Content/75.swf" publishTime="10/31/2008 13:54:10" />
+    <file relUrl="Views/Cart/CheckOut.aspx" publishTime="12/11/2009 02:43:08" />
+    <file relUrl="bin/Castle.DynamicProxy2.xml" publishTime="09/20/2007 18:23:14" />
+    <file relUrl="bin/Castle.Windsor.xml" publishTime="09/20/2007 18:23:48" />
+    <file relUrl="Content/buombay.swf" publishTime="12/12/2009 20:06:16" />
+    <file relUrl="Views/Products/List.aspx" publishTime="12/10/2009 12:15:36" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="12/09/2009 23:55:14" />
+    <file relUrl="Content/light.swf" publishTime="12/13/2009 09:18:58" />
+    <file relUrl="Views/Web.config" publishTime="12/09/2009 23:55:14" />
+    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="12/09/2009 23:55:14" />
+    <file relUrl="Content/preview_31_.swf" publishTime="01/19/2009 10:33:24" />
+    <file relUrl="bin/Castle.Windsor.dll" publishTime="09/20/2007 18:23:48" />
+    <file relUrl="bin/Castle.Core.xml" publishTime="09/20/2007 18:23:00" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="12/09/2009 23:55:14" />
+    <file relUrl="bin/DomainModel.dll" publishTime="12/13/2009 11:53:40" />
+    <file relUrl="Views/Account/Logon.aspx" publishTime="12/13/2009 05:32:58" />
+    <file relUrl="Content/pugongying.swf" publishTime="12/13/2009 09:19:06" />
+    <file relUrl="bin/Castle.MicroKernel.dll" publishTime="09/20/2007 18:23:42" />
+    <file relUrl="Scripts/jquery-1.3.2.min.js" publishTime="12/09/2009 23:55:14" />
+    <file relUrl="Content/starlight.swf" publishTime="12/13/2009 09:17:58" />
+    <file relUrl="Scripts/jquery-1.3.2.js" publishTime="12/09/2009 23:55:14" />
+    <file relUrl="Views/Admin/Edit.aspx" publishTime="12/13/2009 13:30:48" />
+    <file relUrl="Web.config" publishTime="12/15/2009 10:53:46" />
+    <file relUrl="Content/star.swf" publishTime="12/13/2009 09:18:50" />
+    <file relUrl="Scripts/jquery-1.3.2.min-vsdoc.js" publishTime="12/09/2009 23:55:14" />
+    <file relUrl="Views/Shared/Admin.Master" publishTime="12/12/2009 06:15:22" />
+    <file relUrl="Content/ca.swf" publishTime="12/12/2009 19:48:28" />
+    <file relUrl="Scripts/MicrosoftAjax.js" publishTime="12/09/2009 23:55:14" />
+    <file relUrl="Views/Cart/Completed.aspx" publishTime="12/11/2009 02:32:00" />
+    <file relUrl="Scripts/jquery-1.3.2-vsdoc.js" publishTime="12/09/2009 23:55:14" />
+    <file relUrl="bin/Castle.DynamicProxy2.dll" publishTime="09/20/2007 18:23:14" />
+    <file relUrl="bin/WebsiteBanXeHoi.pdb" publishTime="12/13/2009 13:38:50" />
+    <file relUrl="Content/saosang.swf" publishTime="12/13/2009 09:18:16" />
+    <file relUrl="Views/Cart/Index.aspx" publishTime="12/10/2009 13:37:14" />
+    <file relUrl="Content/flash.swf" publishTime="12/12/2009 19:53:18" />
+    <file relUrl="Content/dep1.swf" publishTime="12/13/2009 09:44:08" />
+    <file relUrl="bin/Microsoft.Web.Mvc.dll" publishTime="12/09/2009 00:56:08" />
+    <file relUrl="Views/Cart/Summary.ascx" publishTime="12/11/2009 21:36:16" />
+    <file relUrl="Content/stars.swf" publishTime="12/13/2009 09:18:26" />
+    <file relUrl="Views/Admin/Index.aspx" publishTime="12/11/2009 22:01:02" />
+    <file relUrl="Content/Dep.swf" publishTime="01/19/2009 10:36:00" />
+    <file relUrl="Views/Shared/Site.Master" publishTime="12/13/2009 10:10:24" />
+    <file relUrl="Content/styles.css" publishTime="12/13/2009 05:00:24" />
+    <file relUrl="bin/WebsiteBanXeHoi.dll" publishTime="12/13/2009 13:38:50" />
+    <file relUrl="Content/adminstyles.css" publishTime="12/11/2009 21:51:32" />
+    <file relUrl="Global.asax" publishTime="12/09/2009 23:55:14" />
+    <file relUrl="bin/DomainModel.pdb" publishTime="12/13/2009 11:53:40" />
+    <file relUrl="Default.aspx" publishTime="12/09/2009 23:55:14" />
+  </publishTarget>
+</publishData>
